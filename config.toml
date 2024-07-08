@@ -1,0 +1,25 @@
+baseURL = "https://holyshrimp.xyz/"
+languageCode = "en"
+defaultContentLanguage = "en"
+
+title = "Dmitry Popov"
+copyright = ":face_holding_back_tears:"
+
+enableEmoji = true
+disableKinds = ["taxonomy", "term"]
+
+[params.author]
+  name = "Dmitry Popov"
+  headline = "DevOps Engineer"
+  image = "img/memoji.png"
+  links = [
+    { cv = { href = "/cv/cv.pdf", text = "CV", icon = "cv" } },
+    { email = { href = "mailto:me@holyshrimp.xyz", text = "Email" } },
+    { github = "https://github.com/holyshrimp" },
+    { gitlab = "https://gitlab.com/holyshrimp" },
+    { linkedin = "https://linkedin.com/in/dmipopov" },
+    { telegram = "https://t.me/holyshrimp" },
+  ]
+
+[params]
+  attribution = false

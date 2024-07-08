@@ -1,0 +1,19 @@
+.link-email {
+    background: rgb(131, 58, 180);
+    background: linear-gradient(
+      90deg,
+      rgb(89, 10, 154) 0%,
+      rgb(144, 11, 159) 50%,
+      rgb(173, 15, 94) 100%
+    );
+  }
+
+.link-cv {
+    background: rgb(131, 58, 180);
+    background: linear-gradient(
+            90deg,
+            rgb(194, 117, 16) 0%,
+            rgb(196, 59, 18) 50%,
+            rgb(169, 13, 13) 100%
+    );
+}
