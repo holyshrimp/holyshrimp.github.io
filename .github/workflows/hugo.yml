@@ -74,6 +74,8 @@ jobs:
         with:
           name: github-pages
           path: ./public
+      - name: Extract Artifact
+        run: tar -xvf ./public/artifact.tar -C ./public
       - name: List Files in Public Directory After Download
         run: ls -la ./public
       - name: Deploy to GitHub Pages
