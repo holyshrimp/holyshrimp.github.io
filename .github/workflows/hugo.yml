@@ -70,10 +70,12 @@ jobs:
     needs: build
     steps:
       - name: Download Build Artifacts
-        uses: actions/download-artifact@v2
+        uses: actions/download-pages-artifact@v2
         with:
           name: github-pages
           path: ./public
+      - name: List Files in Public Directory After Download
+        run: ls -la ./public
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
