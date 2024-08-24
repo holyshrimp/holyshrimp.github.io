@@ -13,12 +13,12 @@ disableKinds = ["taxonomy", "term"]
   headline = "DevOps Engineer"
   image = "img/memoji.png"
   links = [
-    { cv = { href = "/cv/cv.pdf", text = "cv eng"} },
+    { cv = { href = "/cv/CV_Popov_DevOps.pdf", text = "cv eng"} },
     { email = { href = "mailto:me@holyshrimp.xyz", text = " " } },
     { linkedin = { href = "https://linkedin.com/in/dmipopov", text = " "} },
     { telegram = { href = "https://t.me/holyshrimp", text = " "} },
-    { github = { href = "https://github.com/holyshrimp", text = " " } },
-    { gitlab = { href = "https://gitlab.com/holyshrimp", text = " "} },
+#    { github = { href = "https://github.com/holyshrimp", text = " " } },
+#    { gitlab = { href = "https://gitlab.com/holyshrimp", text = " "} },
   ]
 
 [params]
